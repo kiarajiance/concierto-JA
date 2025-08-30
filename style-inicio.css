@@ -1,103 +1,106 @@
+/* =========================
+   Fuentes
+========================= */
+@font-face {
+  font-family: 'Codec Cold Bold Trial';
+  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
-    /* Importa tu fuente Codec Pro */
-    @font-face {
-      font-family: 'Codec Pro';
-      src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
-    @font-face {
-  font-family: 'Codec Pro';
-  src: url('CodecPro-Regular.woff') format('woff');
+@font-face {
+  font-family: 'Codec Warm ExtraBold';
+  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-Trial.woff') format('woff');
+  font-family: 'Public Sans ExtraBold';
+  src: url('PublicSans-ExtraBold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
-/* Fuentes */ @font-face { font-family: 'Codec Cold Bold Trial'; src: url('Codec-Cold-Bold-trial.ttf') format('truetype'); font-weight: bold; font-style: normal; } @font-face { font-family: 'Codec Warm ExtraBold'; src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'Public Sans ExtraBold'; src: url('PublicSans-ExtraBold.otf') format('opentype'); font-weight: bold; font-style: normal; }
 
+/* =========================
+   Estilos generales
+========================= */
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Public Sans ExtraBold', sans-serif; /* texto general */
+}
 
-    body {
-      margin: 0;
-      background: #000;
-      color: #fff;
-      font-family: 'Codec Pro', sans-serif;
-    }
-
-    /* Sección del título */
-    .hero {
-      position: relative;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      text-align: center;
-    }
-
-    .aura {
-      position: absolute;
-      width: 600px;
-      height: 600px;
-      background: radial-gradient(circle, 
-                  rgba(255,255,255,0.3) 0%, 
-                  rgba(0,212,255,0.2) 30%, 
-                  rgba(170,0,255,0.15) 60%, 
-                  rgba(0,0,0,0) 100%);
-      border-radius: 50%;
-      filter: blur(80px);
-      animation: pulse 8s infinite alternate;
-    }
-
-    @keyframes pulse {
-      from { transform: scale(1); opacity: 0.8; }
-      to   { transform: scale(1.2); opacity: 0.4; }
-    }
-
-    h1 {
-      font-size: 4rem;
-      margin: 0;
-      background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: shine 6s linear infinite;
-      font-family: 'Codec Pro', sans-serif;
-    }
-
-    @keyframes shine {
-      0% { background-position: 0% 50%; }
-      100% { background-position: 100% 50%; }
-    }
-
-    /* Sección de texto debajo */
-    .section-text {
-      max-width: 800px;
-      margin: -3rem auto 0;
-      padding: 2rem 2rem 4rem;
-      font-size: 1.25rem;
-      line-height: 1.8;
-      text-align:left;
-    }
-
-    .section-text p {
-      margin-bottom: 1.2rem;
-    }
-    .destacado {
-      font-family: 'Codec Cold Bold Trial', sans-serif;
-      font-weight: bold;
-      display: block;
-      margin-bottom: 1rem;
-    }
-    .btn {
-  display: block;
+/* =========================
+   Hero / título principal
+========================= */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.aura {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, 
+              rgba(255,255,255,0.3) 0%, 
+              rgba(0,212,255,0.2) 30%, 
+              rgba(170,0,255,0.15) 60%, 
+              rgba(0,0,0,0) 100%);
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: pulse 8s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); opacity: 0.8; }
+  to   { transform: scale(1.2); opacity: 0.4; }
+}
+
+h1 {
+  font-family: 'Codec Warm ExtraBold', sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* =========================
+   Subtítulos y secciones
+========================= */
+h2, h3, h4, .sub-hero, .texto-vestimenta {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+  font-weight: bold;
+}
+
+/* Subtítulo destacado */
+.destacado, .destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   Botones
+========================= */
+.btn {
+  display: block;
   margin: 1rem auto 0 auto;
-  margin-top: -1rem;
   padding: 14px 28px;
   font-size: 1.2rem;
   font-family: 'Codec Pro', sans-serif;
@@ -115,33 +118,15 @@
   box-shadow: 0 0 20px rgba(255, 200, 255, 0.6);
 }
 
-/* Nueva sección "YA ESTAMOS POR COMENZAR" */
-.sub-hero-section {
-  text-align: center;
-  margin: 6rem 2rem 4rem; /* separación desde la sección anterior */
-}
-
-.sub-hero {
-  font-size: 2.5rem;
-  font-family: 'Codec Pro', sans-serif;
-  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
-}
-
-/* Botón centrado ya está gracias al display: inline-block y text-align: center de la sección */
-.sub-hero-section .btn {
-  display: inline-block;
-}
-
+/* =========================
+   Countdown
+========================= */
 #countdown {
-  font-size: 3rem; /* más grande */
+  font-size: 3rem;
   margin: 2rem 0;
   font-family: Poppins, sans-serif;
   color: #ff9a9e;
   text-align: center;
-  position: relative;
   display: inline-block;
   background: linear-gradient(90deg, #ff9a9e, #fad0c4, #ff9a9e);
   background-size: 200% 100%;
@@ -150,53 +135,20 @@
   animation: shine 3s linear infinite;
 }
 
-@keyframes shine {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
-}
 .countdown-container {
   display: flex;
-  flex-direction: column; /* columna, no fila */
-  align-items: center;    /* centrado horizontal */
-  gap: 2rem;              /* espacio entre countdown y botón */
-  margin-top: 2rem;       /* separación desde la sección superior */
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
+/* =========================
+   Secciones especiales
+========================= */
 .about-us-section {
   padding: 1rem 2rem;
-  text-align: center; /* centra todo el contenido */
-}
-
-.about-us-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.about-us-image img {
-  width: 80%; /* imagen grande pero no ocupa todo */
-  max-width: 600px;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 0 30px rgba(255,255,255,0.1);
-  margin-bottom: 2rem;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.social-icons a img {
-  width: auto;
-  height: 40px;
-  transition: transform 0.2s, filter 0.2s;
-}
-
-.social-icons a:hover img {
-  transform: scale(1.2);
-  filter: drop-shadow(0 0 10px #ff9a9e);
+  text-align: center;
 }
 
 .about-us-section h2 {
@@ -213,115 +165,23 @@
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1.8;
-  margin: 0 auto;
   max-width: 700px;
-}
-
-.footer {
-  text-align: center;                /* Centra el texto */
-  padding: 20px 0;                   /* Espacio arriba y abajo */
-  background-color: #0a0a0a;         /* Fondo oscuro similar a tu página */
-  color: #f2f2f2;                    /* Texto claro */
-  font-family: 'Poppins', sans-serif;/* Mantiene la tipografía de la página */
-  font-size: 14px;                    /* Tamaño legible, no demasiado grande */
-  border-top: 1px solid #333;        /* Línea sutil arriba del footer */
+  margin: 0 auto;
 }
 
 .vestimenta {
   max-width: 800px;
-      margin: 5rem auto 0;
-      padding: 2rem 2rem 4rem;
-      font-size: 1.25rem;
-      line-height: 1.8;
-      text-align:left;
+  margin: 5rem auto 0;
+  padding: 2rem 2rem 4rem;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  text-align: left;
 }
+
 .texto-vestimenta {
-      margin-top: -3rem;
-      font-family: 'Codec Cold Bold Trial', sans-serif;
-      font-weight: bold;
-      display: block;
-      margin-bottom: -3rem;
-}
-
-.color-circles {
-  display: flex;
-  gap: 10px;
-  margin: 50px 0 20px;
-}
-
-.circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.alfombra {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  margin-top: 20px;
-  flex-wrap: wrap;   /* permite que se acomode en pantallas chicas */
-}
-
-.alfombra-img {
-  width: 160px;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
-
-.alfombra-texto {
-  flex: 1;
-  max-width: 650px;   /* más ancho para evitar cortes innecesarios */
-  line-height: 1.6;
-}
-
-/* Botón centrado */
-.alfombra-boton {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.btn-ver {
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: #af9152;
-  color: #000;
+  margin-top: -3rem;
+  font-family: 'Codec Cold Bold Trial', sans-serif;
   font-weight: bold;
-  border-radius: 20px;
-  text-decoration: none;
+  display: block;
+  margin-bottom: -3rem;
 }
-
-.alfombra {
-  display: flex;
-  align-items: center;   /* ahora el texto se alinea verticalmente al centro de la imagen */
-  gap: 50px;             /* más separación entre la imagen y el texto */
-  margin-top: 20px;
-}
-
-.alfombra-img {
-  width: 300px;          /* más grande que antes */
-  border-radius: 12px;
-  flex-shrink: 0;
-}
-
-.alfombra-texto {
-  flex: 1;
-  max-width: 700px;      /* un poco más ancho para menos saltos de línea */
-  line-height: 1.6;
-}
-
-
-
-.horario {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 1.2rem;
-}
-
-destacado p { font-family: 'Codec Cold Bold Trial', sans-serif; font-weight: bold; } h1 { font-family: 'Codec Warm ExtraBold', sans-serif; } h2, h3, h4 { font-family: 'Codec Cold Bold', sans-serif; }
-p { font-family: 'Public Sans ExtraBold', sans-serif; }
-
-
-
-
