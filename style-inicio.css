@@ -196,4 +196,11 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
 }
 
 
+h2, h3, h4, .sub-hero {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+}
+
+.destacado, .destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+}
 
