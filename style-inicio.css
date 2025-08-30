@@ -2,21 +2,21 @@
 /* Fuentes */
 @font-face {
   font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+  src: url('Codec-Cold-Bold-trial.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
+  src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
-  src: url('PublicSans-ExtraBold.otf') format('opentype');
+  src: url('PublicSans-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -323,6 +323,7 @@
   font-family: 'Codec Cold Bold Trial', sans-serif;
   font-weight: bold;
 }
+
 
 
 
