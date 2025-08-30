@@ -26,7 +26,8 @@
       margin: 0;
       background: #000;
       color: #fff;
-      font-family: 'Codec Pro', sans-serif;
+  font-family: 'Public Sans ExtraBold', sans-serif;
+}
     }
 
     /* Sección del título */
@@ -338,6 +339,7 @@ h2, h3, h4, .sub-hero {
 p {
   font-family: 'Public Sans ExtraBold', sans-serif;
 }
+
 
 
 
