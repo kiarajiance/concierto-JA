@@ -19,6 +19,7 @@
   font-weight: bold;
   font-style: normal;
 }
+/* Fuentes */ @font-face { font-family: 'Codec Cold Bold Trial'; src: url('Codec-Cold-Bold-trial.ttf') format('truetype'); font-weight: bold; font-style: normal; } @font-face { font-family: 'Codec Warm ExtraBold'; src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype'); font-weight: normal; font-style: normal; } @font-face { font-family: 'Public Sans ExtraBold'; src: url('PublicSans-ExtraBold.otf') format('opentype'); font-weight: bold; font-style: normal; }
 
 
     body {
@@ -317,4 +318,5 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
+
 
