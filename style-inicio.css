@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Codec Cold Bold';
+  font-family: 'Codec Cold Bold Trial';
   src: url('Codec-Cold-Bold-trial.woff2') format('woff2'),
        url('Codec-Cold-Bold-trial.woff') format('woff');
   font-weight: bold;
@@ -21,6 +21,7 @@
   font-weight: 800;
   font-style: normal;
 }
+
 
 
 
@@ -338,10 +339,10 @@ p {
   font-family: 'Public Sans ExtraBold', sans-serif;
 }
 
-
-
-
-
+.destacado, 
+.destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+}
 
 
 
