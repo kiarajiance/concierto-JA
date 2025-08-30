@@ -3,21 +3,21 @@
 ========================= */
 @font-face {
   font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+  src: url('Codec-Cold-Bold-trial.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
+  src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
-  src: url('PublicSans-ExtraBold.otf') format('opentype');
+  src: url('PublicSans-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -192,4 +192,5 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
   display: block;
   margin-bottom: -3rem;
 }
+
 
