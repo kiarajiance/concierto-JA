@@ -1,6 +1,8 @@
 /* =========================
    Fuentes
 ========================= */
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
 @font-face {
   font-family: 'Codec Cold Bold Trial';
   src: url('Codec-Cold-Bold-trial.woff') format('woff');
@@ -36,7 +38,7 @@ body {
   margin: 0;
   background: #000;
   color: #fff;
-  font-family: 'Codec Pro', 'Public Sans ExtraBold', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* =========================
@@ -192,5 +194,6 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
   display: block;
   margin-bottom: -3rem;
 }
+
 
 
