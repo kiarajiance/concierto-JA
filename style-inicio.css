@@ -1,26 +1,21 @@
 @font-face {
   font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-trial.woff2') format('woff2'),
-       url('Codec-Cold-Bold-trial.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
+  src: url('CodecColdTrial-Bold.woff2') format('woff2'),
+       url('CodecColdTrial-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.woff2') format('woff2'),
-       url('Codec-Warm-ExtraBold-trial.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
+  src: url('CodecWarmTrial-ExtraBold.woff2') format('woff2'),
+       url('CodecWarmTrial-ExtraBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
   src: url('PublicSans-ExtraBold.woff2') format('woff2'),
        url('PublicSans-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
 }
+
 
 
 
@@ -343,6 +338,7 @@ p {
 .destacado p {
   font-family: 'Codec Cold Bold Trial', sans-serif;
 }
+
 
 
 
