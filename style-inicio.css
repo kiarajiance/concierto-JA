@@ -2,20 +2,20 @@
     /* Importa tu fuente Codec Pro */
     @font-face {
       font-family: 'Codec Pro';
-      src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
+      src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
       font-weight: normal;
       font-style: normal;
     }
     @font-face {
   font-family: 'Codec Pro';
-  src: url('CodecPro-Regular.ttf') format('truetype');
+  src: url('CodecPro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-Trial.ttf') format('truetype');
+  src: url('Codec-Cold-Bold-Trial.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -317,3 +317,4 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
+
