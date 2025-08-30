@@ -1,24 +1,26 @@
+cambié mi css a esto:
+/* Fuentes */
+@font-face {
+  font-family: 'Codec Cold Bold Trial';
+  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
-    /* Importa tu fuente Codec Pro */
-    @font-face {
-      font-family: 'Codec Pro';
-      src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-    @font-face {
-  font-family: 'Codec Pro';
-  src: url('CodecPro-Regular.ttf') format('truetype');
+@font-face {
+  font-family: 'Codec Warm ExtraBold';
+  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-Trial.ttf') format('truetype');
+  font-family: 'Public Sans ExtraBold';
+  src: url('PublicSans-ExtraBold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
+
 
 
     body {
@@ -317,3 +319,24 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
+.destacado, 
+.destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Codec Warm ExtraBold', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Codec Cold Bold', sans-serif;
+}
+
+p {
+  font-family: 'Public Sans ExtraBold', sans-serif;
+}
+
+
+con eso anda el texto, pero no el de los tituos
+
+
