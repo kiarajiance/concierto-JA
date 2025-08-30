@@ -318,4 +318,11 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
+.destacado, 
+.destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
+  font-weight: bold;
+}
+
+
 
