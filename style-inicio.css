@@ -1,3 +1,6 @@
+/* =========================
+   Fuentes para títulos
+   ========================= */
 @font-face {
   font-family: 'Codec Cold Bold';
   src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
@@ -5,13 +8,31 @@
   font-style: normal;
 }
 
-
 @font-face {
   font-family: 'Codec Warm ExtraBold';
   src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* H1 - Título principal */
+h1 {
+  font-family: 'Codec Warm ExtraBold', sans-serif;
+  font-weight: normal; /* ya que la fuente es ExtraBold */
+  font-size: 4rem;
+  margin: 0;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+/* H2, H3, H4 y sub-hero */
+h2, h3, h4, .sub-hero {
+  font-family: 'Codec Cold Bold', sans-serif;
+  font-weight: bold;
+}
+
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
@@ -319,20 +340,42 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
-.destacado, 
-.destacado p {
-  font-family: 'Codec Cold Bold Trial', sans-serif;
+/* =========================
+   Fuentes para títulos
+   ========================= */
+@font-face {
+  font-family: 'Codec Cold Bold';
+  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
   font-weight: bold;
-}
-/* Títulos */
-h1 {
-  font-family: 'Codec Warm ExtraBold', sans-serif;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Codec Warm ExtraBold';
+  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* H1 - Título principal */
+h1 {
+  font-family: 'Codec Warm ExtraBold', sans-serif;
+  font-weight: normal; /* ya que la fuente es ExtraBold */
+  font-size: 4rem;
+  margin: 0;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+/* H2, H3, H4 y sub-hero */
 h2, h3, h4, .sub-hero {
-  font-family: 'Codec Cold Bold', sans-serif; /* coincide con tu @font-face */
+  font-family: 'Codec Cold Bold', sans-serif;
   font-weight: bold;
 }
+
+
 
 
 
@@ -341,6 +384,7 @@ h2, h3, h4, .sub-hero {
 p {
   font-family: 'Public Sans ExtraBold', sans-serif;
 }
+
 
 
 
