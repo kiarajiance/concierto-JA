@@ -1,4 +1,6 @@
-/* Importa tu fuente Codec Pro */
+entre esto:
+
+    /* Importa tu fuente Codec Pro */
     @font-face {
       font-family: 'Codec Pro';
       src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
@@ -320,7 +322,6 @@
 
 destacado p { font-family: 'Codec Cold Bold Trial', sans-serif; font-weight: bold; } h1 { font-family: 'Codec Warm ExtraBold', sans-serif; } h2, h3, h4 { font-family: 'Codec Cold Bold', sans-serif; }
 p { font-family: 'Public Sans ExtraBold', sans-serif; }
-
 
 
 
