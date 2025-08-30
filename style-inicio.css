@@ -1,53 +1,21 @@
-/* =========================
-   Fuentes para títulos
-   ========================= */
+/* Fuentes */
 @font-face {
-  font-family: 'Codec Cold Bold';
-  src: url('Codec-Cold-Bold-trial.woff') format('woff');
+  font-family: 'Codec Cold Bold Trial';
+  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
+  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-/* =========================
-   Fuentes para títulos
-   ========================= */
-@font-face {
-  font-family: 'Codec Cold Bold Trial';
-  src: url('Codec-Cold-Bold-trial.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-/* Título principal: MÁS ALLÁ DEL UNIVERSO */
-h1 {
-  font-family: 'Codec Warm ExtraBold', sans-serif;
-  font-weight: normal;
-  font-size: 4rem;
-  margin: 0;
-  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 6s linear infinite;
-}
-
-/* Subtítulos: ¡Bienvenido!, FALTA POCO..., Código de vestimenta, SOBRE NOSOTROS */
-h2, h3, h4, .sub-hero, .texto-vestimenta {
-  font-family: 'Codec Cold Bold Trial', sans-serif;
-  font-weight: bold;
-}
-
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
-  src: url('PublicSans-ExtraBold.woff') format('woff');
+  src: url('PublicSans-ExtraBold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -58,8 +26,7 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
       margin: 0;
       background: #000;
       color: #fff;
-  font-family: 'Public Sans ExtraBold', sans-serif;
-}
+      font-family: 'Codec Pro', sans-serif;
     }
 
     /* Sección del título */
@@ -351,54 +318,20 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
   font-weight: 900;
   font-size: 1.2rem;
 }
-/* =========================
-   Fuentes para títulos
-   ========================= */
-@font-face {
-  font-family: 'Codec Cold Bold';
-  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+.destacado, 
+.destacado p {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
   font-weight: bold;
-  font-style: normal;
 }
-
-@font-face {
-  font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* H1 - Título principal */
 h1 {
   font-family: 'Codec Warm ExtraBold', sans-serif;
-  font-weight: normal; /* ya que la fuente es ExtraBold */
-  font-size: 4rem;
-  margin: 0;
-  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 6s linear infinite;
 }
 
-/* H2, H3, H4 y sub-hero */
-h2, h3, h4, .sub-hero {
-  font-family: 'Codec Cold Bold', sans-serif;
-  font-weight: bold;
+h2, h3, h4 {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
 }
-
-
-
-
-
 
 
 p {
   font-family: 'Public Sans ExtraBold', sans-serif;
 }
-
-
-
-
-
-
-
