@@ -3,22 +3,33 @@
    ========================= */
 @font-face {
   font-family: 'Codec Cold Bold';
-  src: url('Codec-Cold-Bold-trial.ttf') format('truetype');
+  src: url('Codec-Cold-Bold-trial.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.ttf') format('truetype');
+  src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-/* H1 - Título principal */
+/* =========================
+   Fuentes para títulos
+   ========================= */
+@font-face {
+  font-family: 'Codec Cold Bold Trial';
+  src: url('Codec-Cold-Bold-trial.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Título principal: MÁS ALLÁ DEL UNIVERSO */
 h1 {
   font-family: 'Codec Warm ExtraBold', sans-serif;
-  font-weight: normal; /* ya que la fuente es ExtraBold */
+  font-weight: normal;
   font-size: 4rem;
   margin: 0;
   background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
@@ -27,16 +38,16 @@ h1 {
   animation: shine 6s linear infinite;
 }
 
-/* H2, H3, H4 y sub-hero */
-h2, h3, h4, .sub-hero {
-  font-family: 'Codec Cold Bold', sans-serif;
+/* Subtítulos: ¡Bienvenido!, FALTA POCO..., Código de vestimenta, SOBRE NOSOTROS */
+h2, h3, h4, .sub-hero, .texto-vestimenta {
+  font-family: 'Codec Cold Bold Trial', sans-serif;
   font-weight: bold;
 }
 
 
 @font-face {
   font-family: 'Public Sans ExtraBold';
-  src: url('PublicSans-ExtraBold.otf') format('opentype');
+  src: url('PublicSans-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -384,6 +395,7 @@ h2, h3, h4, .sub-hero {
 p {
   font-family: 'Public Sans ExtraBold', sans-serif;
 }
+
 
 
 
