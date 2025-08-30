@@ -318,7 +318,10 @@
   font-weight: 900;
   font-size: 1.2rem;
 }
+
+destacado p { font-family: 'Codec Cold Bold Trial', sans-serif; font-weight: bold; } h1 { font-family: 'Codec Warm ExtraBold', sans-serif; } h2, h3, h4 { font-family: 'Codec Cold Bold', sans-serif; }
 p { font-family: 'Public Sans ExtraBold', sans-serif; }
+
 
 
 
