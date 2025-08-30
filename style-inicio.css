@@ -21,6 +21,13 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('CodecPro-Regular.woff') format('woff'); /* o .ttf según tengas */
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* =========================
    Estilos generales
@@ -29,7 +36,7 @@ body {
   margin: 0;
   background: #000;
   color: #fff;
-  font-family: 'Public Sans ExtraBold', sans-serif; /* texto general */
+  font-family: 'Codec Pro', 'Public Sans ExtraBold', sans-serif;
 }
 
 /* =========================
@@ -185,3 +192,4 @@ h2, h3, h4, .sub-hero, .texto-vestimenta {
   display: block;
   margin-bottom: -3rem;
 }
+
