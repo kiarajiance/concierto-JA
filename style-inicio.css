@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Codec Warm ExtraBold';
-  src: url('Codec-Warm-ExtraBold-trial.woff') format('woff');
+  src: url('Codec-Warm-ExtraBold-trial.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -323,6 +323,7 @@
   font-family: 'Codec Cold Bold Trial', sans-serif;
   font-weight: bold;
 }
+
 
 
 
